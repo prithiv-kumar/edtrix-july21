@@ -331,7 +331,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  min-height: 100vh;
+  min-height: 100vh !important;
   position: relative;
   /* background: url(../img/banner/home-banner2.jpg) no-repeat center; */
   background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url(/img/LittleWhizzarts.jpg) no-repeat center;
@@ -358,7 +358,7 @@ button:focus {
       font-weight: 500; }
 .home_banner_area1 {
   z-index: 1;
-  min-height: 100vh;
+  min-height: 100vh !important;
   position: relative;
   /* background: url(../img/banner/home-banner2.jpg) no-repeat center; */
   background-size: cover; }
