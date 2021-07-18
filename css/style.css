@@ -3810,4 +3810,11 @@ b{
   color: #808080;}
 
 
- 
+ /* FAQs */
+
+ .colab_gd.btn-link{
+  font-weight: 400;
+  color: #9CCE30 !important;
+  background-color: transparent;
+
+ }
