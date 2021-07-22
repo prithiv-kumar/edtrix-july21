@@ -3920,3 +3920,8 @@ b{
       color: #9CCE30; }
     .single_course1:hover h4 a {
       color: #21BE1F; }
+
+    .single_course .know_more a {
+        color: #002347!important; }
+    .single_course .know_more:hover a {
+        color: #9CCE30!important; }
