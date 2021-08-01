@@ -3926,3 +3926,23 @@ b{
         color: #002347!important; }
     .single_course .know_more:hover a {
         color: #9CCE30!important; }
+
+
+
+
+        .jumbotron {
+          color: white;
+          background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+        }
+
+
+#hacklab.p{
+          line-height: 25px;
+          font-size: 18px;
+          font-family: "Lato", sans-serif;
+          font-weight: 400;
+          color: #808080;}
