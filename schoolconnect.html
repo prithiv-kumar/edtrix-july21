@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -25,179 +26,199 @@
   <body>
     <!--================ Start Header Menu Area =================-->
     <header class="header_area">
-        <div class="main_menu">
-          <div class="search_input" id="search_input_box">
-            <div class="container">
-              <form class="d-flex justify-content-between" method="" action="">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="search_input"
-                  placeholder="Search Here"
-                />
-                <button type="submit" class="btn"></button>
-                <span
-                  class="ti-close"
-                  id="close_search"
-                  title="Close Search"
-                ></span>
-              </form>
+      <div class="main_menu">
+        <div class="search_input" id="search_input_box">
+          <div class="container">
+            <form class="d-flex justify-content-between" method="" action="">
+              <input
+                type="text"
+                class="form-control"
+                id="search_input"
+                placeholder="Search Here"
+              />
+              <button type="submit" class="btn"></button>
+              <span
+                class="ti-close"
+                id="close_search"
+                title="Close Search"
+              ></span>
+            </form>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="index.html"
+              ><img src="img/logo full.png" alt="" style="width: 150px;"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About</a>
+                </li> -->
+
+               <li class="nav-item submenu dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Programs</a
+                  >
+                  <ul class="dropdown-menu" style="width: max-content;">
+                    <li class="nav-item">
+                      <a class="nav-link" href="http://designfoundationcourse.in">Design Foundation Course</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="little_whizzarts.html"
+                        >Little Whizzarts</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href=""
+                        >Teen Program</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href=""
+                        >Foundation Program</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href=""
+                        >Professional Program</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html#colab"
+                        >Collaborative programs</a
+                      >
+                    </li>
+                    
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="kidomath.html">Kid-O-Math</a>
+                    </li> -->
+                  </ul>
+                </li>
+               <!-- <li class="nav-item submenu dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >School connect</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="codes.html">CODES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="hack-lab.html">Hack-lab</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Ideate.html">Ideate</a>
+                    </li>
+                  </ul>
+                </li> -->
+               <!-- <li class="nav-item submenu dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Summer Programs</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://sites.google.com/edtrix.in/teendesigner/teen-designer">Teen Designer</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://sites.google.com/edtrix.in/teendesigner/m-a-c-kids">M.A.C.Kids </a>
+                    </li>
+                    
+                  </ul>
+                </li> -->
+                <!-- <li class="nav-item submenu dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Blog</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="single-blog.html"
+                        >Blog Details</a
+                      >
+                    </li>
+                  </ul>
+                </li> -->
+				<!-- <li class="nav-item">
+                  <a class="nav-link" href="https://sites.google.com/edtrix.in/teendesigner/teen-designer">Summer Programs</a>
+                </li> -->
+                <li class="nav-item active">
+                  <a class="nav-link" href="schoolconnect.html"
+                    >School connect</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hack-lab.html">Hack-lab</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Ideate.html">Ideate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team.html">Team </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a href="#" class="nav-link search" id="search">
+                    <i class="ti-search"></i>
+                  </a>
+                </li> -->
+              </ul>
             </div>
           </div>
-  
-          <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <a class="navbar-brand logo_h" href="index.html"
-                ><img src="img/logo full.png" alt="" style="width: 150px;"></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="icon-bar"></span> <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div
-                class="collapse navbar-collapse offset"
-                id="navbarSupportedContent"
-              >
-                <ul class="nav navbar-nav menu_nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-  
-                  <!-- <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About</a>
-                  </li> -->
-  
-                 <li class="nav-item submenu dropdown">
-                    <a
-                      href="#"
-                      class="nav-link dropdown-toggle"
-                      data-toggle="dropdown"
-                      role="button"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                      >Programs</a
-                    >
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a class="nav-link" href="http://designfoundationcourse.in">Design Foundation Course</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="little_whizzarts.html"
-                          >Little Whizzarts</a
-                        >
-                      </li>
-                      
-                      <!-- <li class="nav-item">
-                        <a class="nav-link" href="kidomath.html">Kid-O-Math</a>
-                      </li> -->
-                    </ul>
-                  </li>
-                 <!-- <li class="nav-item submenu dropdown">
-                    <a
-                      href="#"
-                      class="nav-link dropdown-toggle"
-                      data-toggle="dropdown"
-                      role="button"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                      >School connect</a
-                    >
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a class="nav-link" href="codes.html">CODES</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="hack-lab.html">Hack-lab</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="Ideate.html">Ideate</a>
-                      </li>
-                    </ul>
-                  </li> -->
-                 <!-- <li class="nav-item submenu dropdown">
-                    <a
-                      href="#"
-                      class="nav-link dropdown-toggle"
-                      data-toggle="dropdown"
-                      role="button"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                      >Summer Programs</a
-                    >
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://sites.google.com/edtrix.in/teendesigner/teen-designer">Teen Designer</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://sites.google.com/edtrix.in/teendesigner/m-a-c-kids">M.A.C.Kids </a>
-                      </li>
-                      
-                    </ul>
-                  </li> -->
-                  <!-- <li class="nav-item submenu dropdown">
-                    <a
-                      href="#"
-                      class="nav-link dropdown-toggle"
-                      data-toggle="dropdown"
-                      role="button"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                      >Blog</a
-                    >
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="single-blog.html"
-                          >Blog Details</a
-                        >
-                      </li>
-                    </ul>
-                  </li> -->
-                  <!-- <li class="nav-item">
-                    <a class="nav-link" href="https://sites.google.com/edtrix.in/teendesigner/teen-designer">Summer Programs</a>
-                  </li> -->
-                  <li class="nav-item active">
-                    <a class="nav-link" href="schoolconnect.html"
-                      >School connect</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="hack-lab.html">Hack-lab</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Ideate.html">Ideate</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="team.html">Team </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <!-- <li class="nav-item">
-                    <a href="#" class="nav-link search" id="search">
-                      <i class="ti-search"></i>
-                    </a>
-                  </li> -->
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
+        </nav>
+      </div>
+    </header>
     <!--================ End Header Menu Area =================-->
 
     <!--================Home Banner Area =================-->
-    <section class="banner_area">
+    <!-- <section class="banner_area">
       <div class="banner_inner d-flex align-items-center">
         <div class="overlay"></div>
         <div class="container">
@@ -207,16 +228,16 @@
                 
                 <img src="img/Hack-lab logo.png" class="img-fluid">
                 <div class="hack_link">
-                 <!-- <h5 class="d-none d-lg-block">Discover your Aptitude, Develop you Abilities</h5>
+                 <h5 class="d-none d-lg-block">Discover your Aptitude, Develop you Abilities</h5>
                   <h5 class="d-lg-none">Discover your Aptitude, <br>
-                      Develop you Abilities</h5> -->
+                      Develop you Abilities</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--================End Home Banner Area =================-->
 <!-- 
     <div class="section_gap registration_area">
@@ -264,91 +285,143 @@
 
 <section class="feature_area section_gap_top" id="schoolconnect">
       <div class="container">
-        <h2 class="mb-4 text-center">School Connect</h2>
+        <h2 class="m-4 text-center">School Connect</h2>
 <br>
         <div class="row justify-content-around">
         <!-- <div class="col-lg-6">
 		<img src="img/hack-img3.jpg" style="width:100%;">
 		</div> -->
-        <div class="col-lg-6" id="text_green">
+        <div class="col-lg-6">
             
               
               
-                <p class="text-justify">ed-trix offers programs that are designed to incorporate creative thinking and cognitive functional development which goes hand-in-hand with the recent National Education Policy 2020 (NEP 2020). Schools can collaborate with us on our various creative thinking programs to mutually benefit from the services and to integrate NEP 2020 into their (or) your curriculum. 
+                <p class="text-justify">Good Day!! 
+                  <br><br>
+                  This is an open invitation for schools to join hands with us to bring in the concepts of creative & design thinking into every classroom in India & globally. We offer various programs specially designed for schools to take the idea of ‘Creative Education’ to the next level.
+                  <br><br>
+                  Our programs go hand-in-hand with the National Education Policy of 2020 (NEP 2020). Collaborate with us to make a seamless transition to NEP 2020 & to incorporate cognitive development techniques into your curriculum. 
+
               </p>
         </div>
+        <div class="col-12 justify-content-center mt-3">
+
+          <h2 class="text-center">What Programs do we offer?</h2>
+
         </div>  
-        <div class="row m-3 p-3 justify-content-around"> 
+
+
+        </div>  
+        <div class="row my-3 justify-content-around"> 
+          <div class="col-12 justify-content-center m-3 p-3">
+              <div class="text-center">
+
+                  <h3 class="mb-2">HACK-LAB</h3>
+                  <strong>For Ages -</strong>6 to 17 year olds <br>
+
+              </div>
+          </div>
+          <div class="col-lg-6 ">
+
+                  <p class="text-justify">Set up HACK-LAB in your schools to provide an immersive learning experience for your students by means of various workshops across disciplines such as Art, Design, Science and Technology, Mathematics, Social Sciences and Communication from the experts in those fields.
+                  <a href="hack-lab.html" class="primary-btn2 mt-4 btn-lg btn-block">Click here to know more</a>. 
+                    </p>
+
+          </div>
+
+          <div class="col-12 justify-content-center m-3 p-3">
+                      <div class="text-center">
+          
+                          <h3 class="mb-2">IDEATE</h3>
+                          <strong>For Ages -</strong>15 to 18 years<br>
+          
+                      </div>
+          </div>
+          <div class="col-lg-6"> 
+                  
+
+                  <p class="text-justify">IDEATE is an exclusive career awareness program that helps in discovering one’s potential, understanding their strengths and weaknesses and offers creative solutions to their future. With the NEP 2020 introducing stream selection to 8th standard students, help them make better decisions by organizing career awareness drives offered by IDEATE. 
+                  
+                  <a href="Ideate.html" class="primary-btn2 mt-4 btn-lg btn-block">Click here to know more</a>. 
+                  </p>   
+                  
+                  
+
+          </div>
+          <div class="col-12 justify-content-center m-3 p-3">
+                      <div class="text-center">
+          
+                          <h3 class="mb-2">Design Foundation Course</h3>
+                          <strong>For Ages -</strong>15 to 18 years<br>
+          
+                      </div>
+          </div>
+          <div class="col-lg-6"> 
+                  
+
+                  <p class="text-justify">Be a part of the Design revolution - <br>
+                  <br>  
+                    Design being a sunrise sector, is predicted to boom in the coming years. Experts are expecting the next big revolution to be instigated by Design. Help your students understand what design is by introducing them to Design Foundation Course. 
+                    <ul>
+                      <li>DFC has helped over 200 students to advance in their creative career journeys.</li>
+                      <li>Collaborations with over 5 schools </li>
+                      <li>94% of our students are placed in National Level Institutes</li>
+                    </ul>
+                  
+                  <a href="Ideate.html" class="primary-btn2 mt-4 btn-lg btn-block">Click here to know more</a>. 
+                  </p>   
+                  
+                  
+
+          </div>
+        </div>
         <div class="col-12 justify-content-center m-3 p-3">
             <div class="text-center">
 
-                <h3 class="mb-2">HACK-LAB</h3>
-                <strong>For Ages -</strong>6 to 17 year olds <br>
+                <h3 class="mb-2 p-4">Why take up this program?</h3>
 
             </div>
-        </div>
-        <div class="col-lg-6 ">
+            <div class="row d-flex justify-content-around">
+              <div class="col-12 col-lg-4 my-3">
+                <div class="text-center">
+                  <img src="img/school connect icon/noun_transition_3857052.svg" style="height: 100px; width: auto;" >
+                </div> 
+                <p class="d-flex justify-content-center ">Transition to NEP 2020 Seamlessly</p>
 
-                <p class="text-justify">Hack-Lab is a space where the students can experiment, explore and learn by getting their hands messy. Set up HACK-LAB in your schools to provide an immersive learning experience for your students by means of various workshops across disciplines such as Art, Design, Science and Technology, Mathematics, Social Sciences and Communication from the experts in those fields. </p>
+              </div>
+              <div class="col-12 col-lg-4 my-3">
+                <div class="text-center">
+                  <img src="img/school connect icon/noun_Partner_3428321.svg" style="height: 100px; width: auto;" >
+                </div> 
+                <p class="d-flex justify-content-center ">Partnered labs for various vocational and multi-disciplinary workshops and classes.</p> 
 
-                <p class="text-justify">Hack-Lab is a tangible space or a workshop that provides a platform for the school students to explore their creativity through various techniques and experiments with the help of equipment and tools such as</p> 
+              </div>
+              <div class="col-12 col-lg-4 my-3">
+                <div class="text-center">
+                  <img src="img/school connect icon/noun_Learning_2509976.svg" style="height: 100px; width: auto;" >
+                </div> 
+                <p class="d-flex justify-content-center ">Implement learning outside of classrooms</p>
+              </div>
+              <div class="col-12 col-lg-4 my-3">
+                <div class="text-center">
+                  <img src="img/school connect icon/noun_education_2151491.svg" style="height: 100px; width: auto;" >
+                </div> 
+                <p class="d-flex justify-content-center ">Integrating NEP 2020 into your pedagogy</p>
 
-                <table>
-                <tr><td>
-                VR/AR Technology</td>		<td>Craft Supplies</td></tr>
-                <tr><td>3D Printer</td>			    <td>Sewing Machine</td></tr>
-                <tr><td>Laser Cutting</td>			<td>Camera & Tripod</td></tr>
-                <tr><td>Thermocol Cutter</td>		<td>Construction Sets</td></tr>
-                <tr><td>Pottery Wheel</td>			<td>Puzzle sets</td></tr>
-                <tr><td>Art Supplies</td>			<td>Games</td></tr>
-                
-                </table>
-                Science & Optical Toys	and MANY MORE!
-                <br>
-        </div>
-        <div class="col-lg-6">
-                <p class="text-justify">Customize what constitutes your unique HACK-LAB subscription to best suit your students. Pick and choose the best workshops, the mentors and the kind of equipment according to your requirement.</p>
+              </div>
+              <div class="col-12 col-lg-4 my-3">
+                <div class="text-center">
+                  <img src="img/school connect icon/noun_male lawyer avatar_2734298.svg" style="height: 100px; width: auto;" >
+                </div> 
+                <p class="d-flex justify-content-center ">Holistic and creative career counselling for the next generation of citizens. </p>  
 
-
-                <p class="text-justify">Number of workshops from the fields of Art & Crafts, Design, Science & Technology, Social Science, Language & Communication let the students to explore and understand their field of interests.
-                </p>
-        </div>  
-
-        <div class="col-12 justify-content-center m-3 p-3">
-                    <div class="text-center">
-        
-                        <h3 class="mb-2">IDEATE</h3>
-                        <strong>For Ages -</strong>15 to 18 years<br>
-        
-                    </div>
-        </div>
-        <div class="col-lg-6"> 
-                
-
-                <p class="text-justify">IDEATE is an exclusive career awareness program that helps in discovering one’s potential, understanding their strengths and weaknesses and offers creative solutions to their future. With the NEP 2020 introducing stream selection to 8th standard students, help them make better decisions by organizing career awareness drives offered by IDEATE. </p>   
-                
-                <p class="text-justify">The IDEATE Process - </p>
-                <ul>
-                <li>Multi-level Analysis & Psychometric tests which understands one’s basic learning processes, aptitude and skill sets. Along with tests, the students will also have a hands-on creative activity/exercise to completely evaluate their level of development under various criteria. </li>
-                <li>Detailed report of the student’s complete profile including their strengths, weaknesses, area of interest, aptitude, etc. </li>
-
-                <li>One-on-one or group career counselling from Educational & Industrial experts.</li>
-                </ul>
-        </div>  
-        
-                <p class="text-justify">Benefits of joining IDEATE - </p>
-                <ul>
-                <li>The students receive a complete report which will allow them to better understand themselves.</li>
-                <li>Easing the decision making process along with an awareness of niche and lucrative career paths.</li>
-                <li>Complete guidance from talking to industry experts, till getting into the University of their choice. </li>
-                </ul>
-
+              </div>
+              <p class=" mt-4">Get in touch with us to know more about our programs or to get a quotation. <br>Reach us at<a href="tel:919500090521"> +91 95000 90521</a> or mail us at <a href="mailto:enquiry@edtrix.in"> enquiry@edtrix.in</a></p>
             </div>
-          </div>
 
+        </div>
 		  
 		   
-        </div>
+      </div>
         <!-- <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="single_feature">
@@ -494,15 +567,20 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+
     <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/owl-carousel-thumb.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/mail-script.js"></script>
     <!--gmaps Js-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+
 
     <script>
             $(document).ready(function() {
@@ -566,6 +644,13 @@
       });
     </script>
     
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.1.0/dist/lazyload.min.js"></script>
+    <script>
+    var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy" // all the images <class="lazy"> has to be lazy
+        // ... more custom settings?
+      });
+    </script>
 
   </body>
 </html>

@@ -532,5 +532,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
           <script src="js/gmaps.min.js"></script>
           <script src="js/theme.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.1.0/dist/lazyload.min.js"></script>
+          <script>
+          var lazyLoadInstance = new LazyLoad({
+              elements_selector: ".lazy" // all the images <class="lazy"> has to be lazy
+              // ... more custom settings?
+            });
+          </script>
         </body>
       </html>

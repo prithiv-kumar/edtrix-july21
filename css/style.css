@@ -3683,7 +3683,8 @@ h6 {
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */ 
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -0.5em; /* Also needed for space (tweak if needed) */
+  margin-left: .5em; /* Also needed for space (tweak if needed) */
+  text-indent: -10px;
 }
 
 
@@ -3767,16 +3768,19 @@ h6 {
 
 
 
-#text_green h3{
-    color: #21BE1F;
+.text_green1{
+    color: #21BE1F !important;
+}
+.text_green h2{
+    color: #21BE1F !important;
 }
 
 blockquote p{
   font-style: italic;
 }
 
-#ideate_p p{
-  font-size: 16px!important;
+.ideate_p p{
+  font-size: 18px!important;
 }
 
 
@@ -3946,3 +3950,11 @@ b{
           font-family: "Lato", sans-serif;
           font-weight: 400;
           color: #808080;}
+
+.blockquote{
+  font-size: 18px ; 
+  font-family: inherit;
+}
+#fundamentals li{
+  line-height: 2em;
+}
