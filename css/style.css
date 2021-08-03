@@ -3958,3 +3958,7 @@ b{
 #fundamentals li{
   line-height: 2em;
 }
+
+.team_img img{
+  border-radius: 15px;
+}
