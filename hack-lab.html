@@ -75,7 +75,7 @@
                   <a class="nav-link" href="about-us.html">About</a>
                 </li> -->
 
-                <li class="nav-item submenu dropdown">
+               <li class="nav-item submenu dropdown ">
                   <a
                     href="#"
                     class="nav-link dropdown-toggle"
@@ -183,7 +183,7 @@
                     </li>
                   </ul>
                 </li> -->
-                <!-- <li class="nav-item">
+				<!-- <li class="nav-item">
                   <a class="nav-link" href="https://sites.google.com/edtrix.in/teendesigner/teen-designer">Summer Programs</a>
                 </li> -->
                 <li class="nav-item">
@@ -556,67 +556,7 @@
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
 
-    <script>
-            $(document).ready(function() {
-                $("#news-slider, #news-slider1, #news-slider2, #news-slider3,#news-slider4, #news-slider5").owlCarousel({
-                    items : 5,
-                    itemsDesktop:[1199,3],
-                    itemsDesktopSmall:[980,2],
-                    itemsMobile : [600,1],
-                    nav:true,
-                    navText:['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
-                    pagination:true,
-                    autoPlay:true,
-                        responsiveClass:true,
-                        responsive:{
-                            0:{
-                                items:1,
-                                nav:true
-                            },
-                            600:{
-                                items:3,
-                                nav:true
-                            },
-                            1000:{
-                                items:5,
-                                nav:true,
-                                loop:false
-                            }
-                        }
 
-                        
-                });
-                $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-                $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
-                
-            });
-    </script>
-
-
-    <script>
-      var options = [];
-
-      $( '.dropdown-menu a' ).on( 'click', function( event ) {
-
-        var $target = $( event.currentTarget ),
-            val = $target.attr( 'data-value' ),
-            $inp = $target.find( 'input' ),
-            idx;
-
-        if ( ( idx = options.indexOf( val ) ) > -1 ) {
-            options.splice( idx, 1 );
-            setTimeout( function() { $inp.prop( 'checked', false ) }, 0);
-        } else {
-            options.push( val );
-            setTimeout( function() { $inp.prop( 'checked', true ) }, 0);
-        }
-
-        $( event.target ).blur();
-            
-        console.log( options );
-        return false;
-      });
-    </script>
 
     <!-- jumbotron script -->
     <script>
